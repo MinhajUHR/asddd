@@ -1,0 +1,8 @@
+x=10
+y=20
+print(x>y and x!=y) # in term of and it will return me false if anyone remains false.
+print (x<y and x!=y and x>y) # in that case x is not greater than y
+print (x>y or x!=y) # In terms of OR it will retrun me true if anyone remains ture.
+print (x>y or x<y or x==y or x!=y) #it doesnot matter any of this remains false, on the hand all of the data are hold false than it will return me false.
+
+print (not x>y and x==y) 
